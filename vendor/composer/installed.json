@@ -1,0 +1,67 @@
+{
+    "packages": [
+        {
+            "name": "avadim/fast-excel-reader",
+            "version": "v1.4.2",
+            "version_normalized": "1.4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aVadim483/fast-excel-reader.git",
+                "reference": "b33ee0461e886f925e6baaecae3b2e659b92bc4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aVadim483/fast-excel-reader/zipball/b33ee0461e886f925e6baaecae3b2e659b92bc4f",
+                "reference": "b33ee0461e886f925e6baaecae3b2e659b92bc4f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-xmlreader": "*",
+                "ext-zip": "*",
+                "php": ">=7.2"
+            },
+            "time": "2022-10-01T13:58:46+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "avadim\\FastExcelReader\\": "./src/FastExcelReader"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Lightweight and very fast XLSX Excel Spreadsheet Reader in PHP",
+            "homepage": "https://github.com/aVadim483/fast-excel-reader",
+            "keywords": [
+                "MS Office",
+                "excel",
+                "library",
+                "office 2007",
+                "parser",
+                "php",
+                "reader",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "support": {
+                "issues": "https://github.com/aVadim483/fast-excel-reader/issues",
+                "source": "https://github.com/aVadim483/fast-excel-reader/tree/v1.4.2"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/VShemarov",
+                    "type": "other"
+                }
+            ],
+            "install-path": "../avadim/fast-excel-reader"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

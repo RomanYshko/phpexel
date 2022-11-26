@@ -1,0 +1,5 @@
+{
+    "require": {
+        "avadim/fast-excel-reader": "^1.4"
+    }
+}
