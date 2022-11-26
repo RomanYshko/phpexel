@@ -1,10 +1,8 @@
 <?php
 require 'Exel.php';
 $object = new Exel();
-$Buy_tags = $object->Buy_tag();
-$tags_2 = $object->Tags_2();
-$tags_3 = $object->Tags_3();
-$Other_tags = $object->Other_tags();
+$object->add();
+$generation = $object->getGeneration();
 ?>
 <!doctype html>
 <html lang="en">
@@ -28,10 +26,10 @@ $Other_tags = $object->Other_tags();
         </thead>
         <tbody>
         <tr>
-            <td><?php echo $Buy_tags['text']?></td>
-            <td><a href="<?php echo $tags_2['link'];?>"> <?php echo $tags_2['text']?></a></td>
-            <td><a href="<?php echo $tags_3['link'];?>"> <?php echo $tags_3['text']?></a></td>
-            <td><?php echo $Other_tags['text']?></td>
+            <td><?php echo $generation['Buy_tags'];?></td>
+            <td><a href="<?php echo $generation['link_tags_2'];?>"> <?php echo $generation['tags_2']?></a></td>
+            <td><a href="<?php echo $generation['link_tags_3'];?>"> <?php echo $generation['tags_3']?></a></td>
+            <td><?php echo $generation['Other_tags']?></td>
         </tr>
         </tbody>
     </table>
